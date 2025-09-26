@@ -159,6 +159,7 @@ main {
   line-height: 1.8;
   margin-bottom: 1.2rem;
   color: #333;
+  text-align: left;
 }
 
 .about-landing strong {
