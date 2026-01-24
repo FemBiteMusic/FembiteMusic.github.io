@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Inter:wght@400;600&display=swap');
 
 body {
   margin: 0;
-  font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Inter', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
   background: #faf9f6;
   /*background: #4D1616;*/
   color: #222;
@@ -31,12 +33,12 @@ header {
   font-weight: 700;
   color: #fff;
   letter-spacing: 2px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .logo a {
   color: #fff;
   text-decoration: none;
-  font-family: 'Rock Salt', cursive;
 }
 
 .nav-links {
