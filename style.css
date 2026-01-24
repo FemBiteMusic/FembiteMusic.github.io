@@ -21,7 +21,7 @@ header {
   padding: 1rem 2rem;
 }
 .nav-logo {
-  height: 55px;
+  height: 50px;
   width: auto;
   vertical-align: middle;
   margin-right: 10px;
@@ -33,7 +33,7 @@ header {
   font-weight: 700;
   color: #fff;
   letter-spacing: 2px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Rock Salt', cursive;
 }
 
 .logo a {
