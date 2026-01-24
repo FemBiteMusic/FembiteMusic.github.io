@@ -40,7 +40,7 @@ header {
   color: #fff;
   text-decoration: none;
   font-family: 'Rock Salt', cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .nav-links {
@@ -140,7 +140,8 @@ main {
 .about-section h1 {
   color: #881CA6;
   margin-bottom: 1.2rem;
-  font-size: 2.4rem;
+  font-size: 2rem;
+  font-family: 'Rock Salt', cursive;
 }
 
 .about-landing {
