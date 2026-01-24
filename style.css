@@ -138,10 +138,11 @@ main {
 }
 
 .about-section h1 {
-  color: #881CA6;
-  margin-bottom: 1.2rem;
-  font-size: 2rem;
   font-family: 'Rock Salt', cursive;
+  color: #881CA6;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .about-landing {
@@ -239,6 +240,14 @@ main {
   padding: 2rem 1rem;
   text-align: center;
 }
+.band-section section-title{
+  font-family: 'Rock Salt', cursive;
+  color: #881CA6;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 .band-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
