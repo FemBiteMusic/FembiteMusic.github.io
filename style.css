@@ -405,6 +405,13 @@ main {
   font-weight: 700;
 }
 
+.show-date .year {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #666;
+  letter-spacing: 1px;
+}
+
 .show-info h2 {
   margin: 0;
   font-size: 1.2rem;
@@ -528,6 +535,9 @@ main {
     display: flex;
     gap: 0.6rem;
     align-items: baseline;
+  }
+  .show-date .year {
+    margin-left: 0.3rem;
   }
 }
 
