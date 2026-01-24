@@ -307,39 +307,6 @@ main {
   line-height: 1.6;
 }
 
-.stream-links {
-  display: flex;
-  gap: 1.2rem;
-  margin: 0.6rem 0 1.2rem 0;
-}
-
-.stream-links a {
-  color: #fff;
-  background: #881CA6;
-  padding: 0.4rem 1.1rem;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.2s;
-  font-size: 1rem;
-}
-
-.stream-links a:hover {
-  background: #d97706;
-  color: #fff;
-}
-
-.audio-samples {
-  display: flex;
-  gap: 1.2rem;
-  margin-bottom: 1.3rem;
-}
-
-.audio-samples audio {
-  width: 210px;
-  outline: none;
-}
-
 .video-embeds {
   display: flex;
   gap: 1.2rem;
@@ -397,6 +364,90 @@ main {
   border-radius: 12px;
   border: none;
 }
+
+.shows-section {
+  margin-bottom: 4rem;
+}
+
+.shows-title {
+  font-family: 'New Rocker', cursive;
+  color: #881CA6;
+  font-size: 2.6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.show-card {
+  display: flex;
+  gap: 1.5rem;
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.08);
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 1.4rem;
+  align-items: center;
+}
+
+.show-date {
+  text-align: center;
+  min-width: 70px;
+}
+
+.show-date .month {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #881CA6;
+}
+
+.show-date .day {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.show-info h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.show-meta {
+  margin: 0.2rem 0 0.6rem 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+.ticket-button {
+  display: inline-block;
+  background: #881CA6;
+  color: #fff;
+  padding: 0.45rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+}
+
+.ticket-button:hover {
+  background: #d97706;
+}
+
+.sold-out-badge {
+  display: inline-block;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #fff;
+  background: #131313;
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+.show-card.sold-out {
+  border-left: 6px solid #131313;
+}
+
 
 @media (max-width: 900px) {
   .site-footer {
@@ -468,4 +519,16 @@ main {
   .epk-section {
     padding: 1.1rem;
   }
+    .show-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .show-date {
+    display: flex;
+    gap: 0.6rem;
+    align-items: baseline;
+  }
 }
+
+
