@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
+
 body {
   margin: 0;
   font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
@@ -34,6 +36,7 @@ header {
 .logo a {
   color: #fff;
   text-decoration: none;
+  font-family: 'New Rocker', cursive;
 }
 
 .nav-links {
