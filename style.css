@@ -130,20 +130,19 @@ main {
 }
 
 .hero-banner {
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto 2.5rem auto;
-  border-radius: 20px;
+  width: 100vw;
+  height: 60vh;
+  max-height: 720px;
+  min-height: 320px;
   overflow: hidden;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
 }
 
 .hero-banner img {
   width: 100%;
-  height: auto;
-  display: block;
-  aspect-ratio: 16 / 9;
+  height: 100%;
   object-fit: cover;
+  object-position: top center;
+  display: block;
 }
 
 .about-section {
@@ -570,7 +569,8 @@ main {
   }
 
   .hero-banner {
-    border-radius: 14px;
+    height: 40vh;
+    min-height: 220px;
   }
 
   main, .epk-section, .about-section, .band-intro {
