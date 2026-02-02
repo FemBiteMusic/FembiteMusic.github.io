@@ -30,7 +30,7 @@
         <li><a href="shows.html">Shows</a></li>
         <li><a href="band.html">Band</a></li>
         <li><a href="listen.html" class="active">Listen</a></li>
-        <li><a href="watch.html">Videos</a></li>
+        <li><a href="videos.html">Videos</a></li>
         <li><a href="epk.html">EPK</a></li>
       </ul>
     </nav>
@@ -76,6 +76,13 @@
 
   </div>
 </footer>
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const navLinks = document.querySelector('.nav-links');
 
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
 </body>
 </html>
