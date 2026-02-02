@@ -15,11 +15,13 @@ header {
 }
 
 .navbar {
+  position: relative; /* THIS anchors the dropdown */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
 }
+
 .nav-logo {
   height: 50px;
   width: auto;
@@ -626,6 +628,7 @@ main {
     padding: 1.5rem 0;
     display: none;
     text-align: center;
+    z-index: 999;
   }
 
   .nav-links.active {
