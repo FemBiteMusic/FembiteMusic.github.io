@@ -408,6 +408,12 @@ main {
   flex-wrap: wrap;
 }
 
+.youtube-button-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 .youtube-button {
   background: #ff0000;
   color: #fff;
