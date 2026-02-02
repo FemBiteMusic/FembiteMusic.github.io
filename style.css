@@ -67,6 +67,23 @@ header {
   color: #CB6CE6;
 }
 
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 26px;
+  height: 3px;
+  background: #fff;
+  margin: 5px 0;
+  border-radius: 2px;
+  transition: 0.3s ease;
+}
+
 main {
   max-width: 1100px;
   margin: 0 auto;
@@ -589,9 +606,30 @@ main {
 }
 @media (max-width: 600px) {
   .navbar {
-    flex-direction: column;
-    gap: 0.6rem;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 0.8rem 1rem;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #131313;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1.5rem 0;
+    display: none;
+    text-align: center;
+  }
+
+  .nav-links.active {
+    display: flex;
   }
 
   .logo {
