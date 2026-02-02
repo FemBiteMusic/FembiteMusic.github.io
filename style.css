@@ -593,6 +593,9 @@ main {
   }
 }
 @media (max-width: 700px) {
+  .band-section {
+    display: none;
+  }
   .footer-content {
     justify-content: center;
     text-align: center;
@@ -649,14 +652,11 @@ main {
   main, .epk-section, .about-section, .band-intro {
     padding: 1.1rem;
   }
-  .band-section {
-    display: none;
-  }
   .epk-section {
     padding: 1.1rem;
   }
   .section-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 0.3rem;
   }
   .show-card {
